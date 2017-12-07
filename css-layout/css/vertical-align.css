@@ -24,7 +24,7 @@ label {
 
 input[type="search"] {
 	border: 1px solid #c5c5c5;
-	box-shadow: inset 0px 0px 3px 0px #d8d8d8; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ remove default input focus style */
+	box-shadow: inset 0px 0px 3px 0px #d8d8d8; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
 	font: 1em Georgia, 'Times New Roman', serif;
 	height: 40px;
 	margin-left: 6px;
@@ -37,4 +37,9 @@ input[type="search"] {
 	box-sizing: border-box;
 
 	-webkit-appearance: none; /* Turn off default search box style in Chrome, iOS, and Safari */
+}
+
+/* remove default input autofill style */
+input[type="search"] {
+	box-shadow: inset 1000px 0px 3px 0px #fff;
 }

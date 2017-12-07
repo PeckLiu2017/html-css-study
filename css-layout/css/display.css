@@ -1,0 +1,17 @@
+/* li has block attributes, so there is only need inline attributes to be added */
+.social-sites li {
+  display: inline;
+}
+
+.nav-main li {
+  display: inline-block;
+}
+
+.nav-main a {
+  color: #292929;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
